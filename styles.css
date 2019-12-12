@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* Project 
+Chapter 3
+My Favortie Movies */
+
+/* HTML and Body Styles */
+html {
+	background-color: rgba(6, 34, 16, 1)
+}
+
+div, h1, h2, section, footer{
+	box-sizing: border-box;
+}
+
+hr{
+	width: 98%;
+	border: 1px solid #092306;
+}
+
+body{
+	background-color: rgb(138, 255, 51);
+	width: 95%;
+	min-width: 640px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+	box-shadow: rgb(5, 143, 0) 15px 0px 25px,
+	 			rgb(5, 143, 0) -15px 0px 25px;
+}
+
+
+body > h1 {
+   color: #092306;
+   font-size: 50px;
+   font-weight: normal;   
+   text-align: left;
+
+}
+h1{
+	font-family: 'Anton', sans-serif;
+	padding-left: 20px;
+	margin: 0px;
+	text-shadow: rgb(181, 211, 181) 2px 2px 1px;
+}
+
+h2{
+	font-family: 'Calistoga', cursive;
+	font-size: 25px;
+	text-shadow: rgb(181, 211, 181) 2px 2px 1px;
+}
+
+/* Body left side - turtles */
+#left{
+	color: #092306;
+	display: block;
+	float:left;
+	width: 40%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+}
+
+#tmnt{
+	display: block;
+	clear: left;
+	float: right;
+	width: 55%;
+	height: 300px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+#tmnt:hover {
+	transform: scale(1.06);
+}
+
+
+/* Body right side - Rush Hour */
+#RH{
+	display: block;
+	float: left;
+	width: 55%;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#RH:hover {
+	transform: scale(1.06);
+}
+
+
+#right{
+	color: #092306;
+	display: block;
+	float: right;
+	width: 40%;
+	padding-top: 30px;
+	padding-right: 20px;
+	font-size: 18px;
+
+}
+
+/* Footer Styles */
+
+footer{
+	font-family: 'Anton', sans-serif;
+	clear: both;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 5px;
+	text-shadow: rgb(181, 211, 181) 2px 2px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
